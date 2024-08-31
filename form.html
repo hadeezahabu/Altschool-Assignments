@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALT SCHOOL Application Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+    <header>
+        <h1>ALT SCHOOL Application Form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Application Form</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="form-wrapper">
+
+    <div width="50%"> 
+        <img width="400px" src="assests/hero-illustration (1).png" alt="">
+        <h1>Learn highly sought after skills
+             without hassle.</h1>
+             <img width="50"   src="assests/twitterlogo.png" alt="">
+            <img width="30" src="assests/instagramlogo.png" alt="">
+            <img width="30" src="assests/facebooklogo.png" alt="">
+            <img width="40" src="assests/linkedin.png" alt="">
+            <p>Tel:0800ALTSCHOOL</p>
+           <p>&copy;2024 Alt school Africa. All rights reserverd</p>
+        </div>
+    <form action="#" method="post">
+        <fieldset>
+            <h1>Signup</h1>
+            <P>Take the next steps to apply at AltSchool Africa</P>
+
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+
+            <label for="address">Street Address</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" required>
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Program Information</legend>
+
+            <label for="program">Select Program</label>
+            <select id="program" name="program" required>
+                <option value="">Select...</option>
+                <option value="frontend">Frontend Engineering</option>
+                <option value="backend">Backend Engineering</option>
+                <option value="cloud">Cloud Engineering</option>
+                <option value="Design">Product design</option>
+                <option value="Marketing">Product Marketing</option>
+                <option value="Management">Product Management</option>
+                <option value="analysis">Data Analysis</option>
+                <option value="Science">Data Science</option>
+                <option value="engineering"> Data Engineering</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Why Alt School?</legend>
+
+            <label for="why-alt">Why do you want to join Alt School?</label>
+            <textarea id="why-alt" name="why-alt" rows="5" required></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Terms and Conditions</legend>
+
+            <label>
+                <input type="checkbox" name="terms" required> I agree to the terms and conditions
+            </label>
+        </fieldset>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</div>
+    
+
+    
+
+    
+
+</body>
+</html>
